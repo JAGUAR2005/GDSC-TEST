@@ -1,0 +1,145 @@
+
+
+.fcontainer{
+    display: flex;
+    justify-content:center;
+    align-self: center;
+    background-image: url(pexels-photo-1624496.jpeg);
+    
+    border: 50px solid greenyellow;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: justify;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    width: 1050px;
+    height: 1000px;
+    position: relative;
+    left: 150px;
+    
+    align-content: space-between;
+    
+    
+    
+    /* flex-flow: column wrap; */
+
+}
+
+.fitem1{
+    background-color: rgb(76,134,249);
+    border-top-left-radius: 50px;
+    border: 2px solid rgb(17, 17, 17);
+    margin: 12px;
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    
+}
+.fitem1 h1{
+    position: absolute;
+    top: 220px;
+}
+.fitem1 h1:hover{
+    text-decoration: underline;
+}
+.fitem2{
+    background-color:rgb(76,134,249);
+    margin: 0px;
+    width: 400px;
+    height: 150px;
+    position: relative;
+    top: 135px;
+    left: -8px;
+    
+}
+.fitem2 h1{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+}
+.fitem2 h1:hover{
+    text-decoration: underline;
+}
+.fitem3{
+    background-color: rgb(246,188,0);
+    margin: 0px;
+    width: 210px;
+    height: 500px;
+    border-top-right-radius: 50px;
+    position: relative;
+    top: 135px;
+    left: -3px;
+
+}
+.fitem3 h1{
+    position: absolute;
+    top: 220px;
+}
+.fitem3 h1:hover{
+    text-decoration: underline;
+}
+.fitem4{
+    
+    background-color:rgb(73,168,76);
+    border-bottom-left-radius: 50px;
+    
+    margin: 0px;
+    width: 400px;
+    height: 150px;
+    left: 2px;
+    position: relative;
+    top: 115px;
+       
+}
+.fitem4 h1:hover{
+    text-decoration: underline;
+}
+
+
+.fitem5{
+    background-color: rgb(73,168,76);
+    border-bottom-right-radius: 50px;
+    
+    margin: 5px;
+    width: 406px;
+    height: 150px;
+    position: relative;
+    left: 15px;
+    bottom: -110px;
+    
+    
+}
+.fitem5 h1{
+    position: absolute;
+    left: 100px;
+}
+.fitem5 h1:hover{
+    text-decoration: underline;
+}
+.fitem6{
+    border: 1px solid white;
+    backdrop-filter: blur(2px);
+    margin: 10px;
+    width: 400px;
+    height: 346px;
+    position: relative;
+    bottom: 410px;
+    left: 1px;
+    
+}
+.fitem6 h1{
+    font-size: 55px;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    
+}
+.fitem6 h1:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(3,4,5,10)
+}
